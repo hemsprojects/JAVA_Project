@@ -1,0 +1,18 @@
+1) Fetch students with > 80 marks(where function)
+ select* from student;
++----------+------------+----------------------+------------+----------+---------------------+---------+-------+
+| studname | studrollno | studemail            | studphno   | studdept | course              | subject | marks |
++----------+------------+----------------------+------------+----------+---------------------+---------+-------+
+| Karthik  |     103723 | karthik123@gmail.com | 1234567891 | CT       | Computer Technology | Tamil   |    90 |
+| Robert   |     103725 | Robert413@gmail.com  | 1234876590 | CT       | Computer Technology | Tamil   |    79 |
+| Anirudha |     103726 | ani567@gmail.com     |  994241324 | CT       | Computer Technology | Tamil   |    75 |
+| Abi      |     103728 | abi1611@gmail.com    | 1239874560 | CT       | Computer Technology | Tamil   |    70 |
+| Sam      |     103729 | sam1037@gmail.com    | 1445167892 | CT       | Computer Technology | Tamil   |    65 |
++----------+------------+----------------------+------------+----------+---------------------+---------+-------+
+
+select* from student where marks > 80;
++----------+------------+----------------------+------------+----------+---------------------+---------+-------+
+| studname | studrollno | studemail            | studphno   | studdept | course              | subject | marks |
++----------+------------+----------------------+------------+----------+---------------------+---------+-------+
+| Karthik  |     103723 | karthik123@gmail.com | 1234567891 | CT       | Computer Technology | Tamil   |    90 |
++----------+------------+----------------------+------------+----------+---------------------+---------+-------+
