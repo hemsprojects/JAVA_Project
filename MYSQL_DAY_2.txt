@@ -1,0 +1,94 @@
+To view the table name use:show tables.
+
+To view the structure of the table use:desc tablename.
+
+To view the whole table use 
+select*
+from student; 
+
+To view the specific column use 
+select colname
+from student;
+	
+To change the already existing table we can use 
+update student
+-> set studrollno=103724, studrollno=103723
+-> where studname='HEMANATH';
+
+To add one column extra we can use:alter.
+
+To insert name into any columnuse 
+update tablename set course="CT";
+
+to insert the value for specific name
+update tablename set course="CT" where studrollno=103723;
+
+To view the constraints in the table we can use
+show create table student;
+
+To delete any row or column or table we can use
+ delete from student
+    -> where studname='';
+
+Types of sql commands:
+1) data definition language
+2) data manipulation language
+3)transaction control language
+4) data control language
+5) data query language
+
+DDL: Used to define an object in the database.
+Keywords:
+i) create
+ii) alter
+iii) truncate
+iv) rename
+v) drop
+
+DML: Used to modify the data
+Keywords:
+i) insert
+ii) update
+iii) delete
+
+TCL: It control the transaction between application and server
+Keywords:
+i) commit: save
+ii) rollback: undo
+iii) save point: intermediate point between transacti9ons
+
+DCL: Control the user acccess
+Keywords:
+i) grant
+ii) revoke
+
+DQL: Retrieve the data from the database
+Keywords:
+i) Selection
+ii) projection
+iii) join
+
+What is Database Design?
+	Database Design is the process of:Structuring a database in a way that ensures data integirity, efficiency and scalability.
+	Organizing data into table & defining the relationships between them.
+
+
+ER menas?
+	Entity-Relationship(ER) model is a visual representation of the table structrue and the relationship.
+
+An ER diagram is a visual representation of the data model, Which shows:
+	-> Entities - It represents the real world object or concept.
+Example:
+Student,courses,employee
+	-> Atrributes - It describe the properties of the entities
+Example:
+For Student: Rollno, Name, Age, Email.
+	-> Relationships - A Relationship represents how entities are associated with each other.
+Example:
+Enrolls between Student and Courses.
+Works for between Employee and department.
+
+Types of relationships:
+	-> One to One(1:N)
+	-> One to Many(1:N)
+	-> Many to Many(N:N)
