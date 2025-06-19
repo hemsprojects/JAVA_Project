@@ -21,9 +21,9 @@ Output:
 +----------+------------+----------------------+------------+----------+
 | studname | studrollno | studemail            | studphno   | studdept |
 +----------+------------+----------------------+------------+----------+
-| HEM  |     103724 | HEM123@gmail.com | 1234567891 | CT       |
-| RAHIM   |     103725 | RAHIM413@gmail.com  | 1234876590 | CT       |
-| HARINI |     103726 | ani567@gmail.com     |  994241324 | CT       |
-| HANSIKA      |     103728 | HANSIKA1611@gmail.com    | 1239874560 | CT       |
-| RITHU      |     103729 | RITHU1037@gmail.com    | 1445167892 | CT       |
+| HEM      |     103724 | HEM123@gmail.com     | 1234567891 | CT       |
+| RAHIM    |     103725 | RAHIM413@gmail.com   | 1234876590 | CT       |
+| HARINI   |     103726 | ani567@gmail.com     |  994241324 | CT       |
+| HANSIKA  |     103728 | HANSIKA1611@gmail.com| 1239874560 | CT       |
+| RITHU    |     103729 | RITHU1037@gmail.com  | 1445167892 | CT       |
 +----------+------------+----------------------+------------+----------+
