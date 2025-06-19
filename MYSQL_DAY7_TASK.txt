@@ -1,0 +1,10 @@
+ select* from courses;
++-----------+------------------------+------------+
+| course_id | course_name            | course_fee |
++-----------+------------------------+------------+
+|    1      | Computer science	     |      30000 |
+|    2      | Information Technology |      40000 |
+|    3      | Computer Technology    |      60000 |
+|    4      | BCA                    |      50000 |
+|    5      | CSC                    |      80000 |
++-----------+------------------------+------------+
