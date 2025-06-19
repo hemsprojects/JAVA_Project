@@ -1,4 +1,4 @@
-1) Fetch students with > 80 marks(where function)
+1) Fetch students with > 80 marks(where function) 
  select* from student;
 +----------+------------+----------------------+------------+----------+---------------------+---------+-------+
 | studname | studrollno | studemail            | studphno   | studdept | course              | subject | marks |
