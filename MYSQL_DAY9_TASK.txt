@@ -1,6 +1,6 @@
  create table student(
     -> studname varchar(50),
-    -> studrollno int,
+    -> studrollno int,  
     -> studemail varchar(40),
     -> studphno int,
     -> studdept varchar(40)
