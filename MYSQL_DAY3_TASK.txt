@@ -1,0 +1,9 @@
+Search books by keyword using LIKE in mysql
+
+select* from books
+    -> where Name of the book='Computer Thrones';
++---------+----------------------------------+------------+-----------+----------------+-------+
+| books   | Name of the book                 | Author     | Genre     | Year           | Cost  |
++---------+----------------------------------+------------+-----------+----------------+-------+
+|    NULL | Computer Thrones                 | John Wick  | Education |           2026 | 99.00 |
++---------+----------------------------------+------------+-----------+----------------+-------+
